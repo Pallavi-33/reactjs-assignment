@@ -1,0 +1,45 @@
+
+.head {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.display-button {
+  background-color: #fbfdfb;
+  border: .2px solid rgb(103, 95, 95);
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+.display-button i {
+  font-size: 18px;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 200px;
+  top: 50px;
+  left: 20px;
+}
+
+.grouping, .ordering {
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

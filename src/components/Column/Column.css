@@ -1,0 +1,53 @@
+/* Column.css */
+
+.column {
+  border-radius: 10px;
+  width: calc(20%);
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  gap: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-right {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+/* Ensuring the card inside the column is styled well */
+.p-card {
+  margin-bottom: 10px;
+}
+
+
+/* Column.css */
+
+/* Additional styles for user images */
+.header-left img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;  /* Add some spacing between the image and text */
+}

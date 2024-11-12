@@ -1,0 +1,76 @@
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .user {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #9a8f8f;
+  width: 100%;
+}
+
+.user-lower-lower {
+  display: flex;
+}
+
+.user-lower-lower p {
+  margin: 0;
+}
+
+.user-lower-lower img {
+  width: 5px;
+  height: 5px;
+}
+
+.user-upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card .title {
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 10px; /* Adds space between image and title */
+}
+
+.card .tag {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #9a8f8f;
+  border: .2px solid rgb(137, 132, 132, .2);
+  width: fit-content;
+  border-radius: 3px;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.card .tag .dot {
+  font-size: 10px;
+  padding: 5px;
+}
+
+.status-img {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.status-avatar {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}
